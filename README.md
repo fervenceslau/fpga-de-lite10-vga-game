@@ -10,6 +10,4 @@ The game features:
 The user simply selects the start option in the menu and controls a white ball using the joystick. The objective is to dodge from incoming red balls for as long as they can.
 
 ### Demo
-![demo](https://user-images.githubusercontent.com/49814646/172450804-bd2ef210-5779-4889-b55a-2dbf1f0acdf8.mp4)
-
-
+https://user-images.githubusercontent.com/49814646/172451243-9819d249-f03c-4631-9fdf-0da28b44c68d.mp4
