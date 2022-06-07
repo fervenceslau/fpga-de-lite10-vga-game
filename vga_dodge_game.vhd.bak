@@ -1,0 +1,17 @@
+LIBRARY 	IEEE;
+USE 		IEEE.STD_LOGIC_1164.ALL;
+USE 		IEEE.NUMERIC_STD.all;
+
+ENTITY disk_graph IS
+	PORT 
+	(	
+		pixel_x		: IN	STD_LOGIC_VECTOR (9 DOWNTO 0);
+		pixel_y		: IN	STD_LOGIC_VECTOR (9 DOWNTO 0);
+		pos_x_l		: IN	STD_LOGIC_VECTOR (9 DOWNTO 0);
+		pos_y_t		: IN	STD_LOGIC_VECTOR (9 DOWNTO 0);
+		disk_on  	: OUT STD_LOGIC;
+		disk_bit 	: OUT STD_LOGIC
+	);
+END disk_graph;
+
+ARCHITECTURE behave OF disk_graph IS

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pinplan
+ variation_name="modular_dual_adc_0"
+ megafunction_name="ALTERA_MODULAR_DUAL_ADC"
+ intended_family="MAX 10"
+ specifies="all_ports">
+ <global>
+  <pin name="clock_clk" direction="input" scope="external" />
+  <pin name="reset_sink_reset_n" direction="input" scope="external" />
+  <pin name="adc_pll_clock_clk" direction="input" scope="external" />
+  <pin name="adc_pll_locked_export" direction="input" scope="external" />
+  <pin name="command_valid" direction="input" scope="external" />
+  <pin name="command_channel[4..0]" direction="input" scope="external" />
+  <pin name="command_startofpacket" direction="input" scope="external" />
+  <pin name="command_endofpacket" direction="input" scope="external" />
+  <pin name="command_ready" direction="output" scope="external" />
+  <pin name="command_2_valid" direction="input" scope="external" />
+  <pin name="command_2_channel[4..0]" direction="input" scope="external" />
+  <pin name="command_2_startofpacket" direction="input" scope="external" />
+  <pin name="command_2_endofpacket" direction="input" scope="external" />
+  <pin name="command_2_ready" direction="output" scope="external" />
+  <pin name="response_valid" direction="output" scope="external" />
+  <pin name="response_channel[4..0]" direction="output" scope="external" />
+  <pin name="response_data[11..0]" direction="output" scope="external" />
+  <pin name="response_startofpacket" direction="output" scope="external" />
+  <pin name="response_endofpacket" direction="output" scope="external" />
+  <pin name="response_2_valid" direction="output" scope="external" />
+  <pin name="response_2_channel[4..0]" direction="output" scope="external" />
+  <pin name="response_2_data[11..0]" direction="output" scope="external" />
+  <pin name="response_2_startofpacket" direction="output" scope="external" />
+  <pin name="response_2_endofpacket" direction="output" scope="external" />
+ </global>
+</pinplan>

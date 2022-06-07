@@ -1,0 +1,21 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst adc.ADC -pg 1 -lvl 3 -y 50
+preplace inst adc.PLL -pg 1 -lvl 2 -y 30
+preplace inst adc.ADC.control_internal -pg 1
+preplace inst adc.pll_clock_bridge -pg 1 -lvl 3 -y 190
+preplace inst adc.ADC.cb_inst -pg 1
+preplace inst adc.ADC.rst_inst -pg 1
+preplace inst adc.clk_0 -pg 1 -lvl 1 -y 130
+preplace inst adc -pg 1 -lvl 1 -y 40 -regy -20
+preplace netloc EXPORT<net_container>adc</net_container>(MASTER)adc.adc_response,(MASTER)ADC.response) 1 3 1 NJ
+preplace netloc EXPORT<net_container>adc</net_container>(SLAVE)adc.adc_command,(SLAVE)ADC.command) 1 0 3 NJ 200 NJ 200 NJ
+preplace netloc POINT_TO_POINT<net_container>adc</net_container>(SLAVE)PLL.locked_conduit,(SLAVE)ADC.adc_pll_locked) 1 1 2 330 140 NJ
+preplace netloc FAN_OUT<net_container>adc</net_container>(SLAVE)PLL.inclk_interface,(SLAVE)ADC.clock,(MASTER)clk_0.clk) 1 1 2 310 160 NJ
+preplace netloc FAN_OUT<net_container>adc</net_container>(MASTER)clk_0.clk_reset,(SLAVE)ADC.reset_sink,(SLAVE)PLL.inclk_interface_reset) 1 1 2 290 180 NJ
+preplace netloc EXPORT<net_container>adc</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)adc.reset) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>adc</net_container>(MASTER)PLL.c0,(SLAVE)ADC.adc_pll_clock,(SLAVE)pll_clock_bridge.in_clk) 1 2 1 610
+preplace netloc EXPORT<net_container>adc</net_container>(MASTER)adc.clk_pll,(MASTER)pll_clock_bridge.out_clk) 1 3 1 NJ
+preplace netloc EXPORT<net_container>adc</net_container>(SLAVE)adc.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+levelinfo -pg 1 0 80 980
+levelinfo -hier adc 90 120 360 740 870

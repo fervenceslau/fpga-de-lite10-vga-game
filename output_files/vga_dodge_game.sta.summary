@@ -1,0 +1,269 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk25'
+Slack : -16.366
+TNS   : -527.501
+
+Type  : Slow 1200mV 85C Model Setup 'vga_driver:vga|v_sync'
+Slack : -11.632
+TNS   : -11860.624
+
+Type  : Slow 1200mV 85C Model Setup 'clkrtc'
+Slack : -3.649
+TNS   : -190.755
+
+Type  : Slow 1200mV 85C Model Setup 'clk50'
+Slack : -1.954
+TNS   : -3.524
+
+Type  : Slow 1200mV 85C Model Setup 'joy|joystick_adc|pll|sd1|pll7|clk[0]'
+Slack : 30.722
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'vga_driver:vga|v_sync'
+Slack : 0.323
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clkrtc'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk25'
+Slack : 0.342
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'joy|joystick_adc|pll|sd1|pll7|clk[0]'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk50'
+Slack : 0.628
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'vga_driver:vga|v_sync'
+Slack : -3.051
+TNS   : -1319.791
+
+Type  : Slow 1200mV 85C Model Recovery 'clkrtc'
+Slack : -1.983
+TNS   : -116.191
+
+Type  : Slow 1200mV 85C Model Recovery 'joy|joystick_adc|pll|sd1|pll7|clk[0]'
+Slack : 36.310
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'joy|joystick_adc|pll|sd1|pll7|clk[0]'
+Slack : 0.929
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'vga_driver:vga|v_sync'
+Slack : 0.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clkrtc'
+Slack : 1.765
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vga_driver:vga|v_sync'
+Slack : -1.403
+TNS   : -2589.938
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk25'
+Slack : -1.403
+TNS   : -116.449
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkrtc'
+Slack : -1.403
+TNS   : -106.628
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk50'
+Slack : 9.636
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'joy|joystick_adc|pll|sd1|pll7|clk[0]'
+Slack : 19.717
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'joy|joystick_adc|pll|sd1|pll7|clk[1]'
+Slack : 44.575
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk25'
+Slack : -14.985
+TNS   : -480.904
+
+Type  : Slow 1200mV 0C Model Setup 'vga_driver:vga|v_sync'
+Slack : -10.742
+TNS   : -10648.419
+
+Type  : Slow 1200mV 0C Model Setup 'clkrtc'
+Slack : -3.287
+TNS   : -168.197
+
+Type  : Slow 1200mV 0C Model Setup 'clk50'
+Slack : -1.768
+TNS   : -3.162
+
+Type  : Slow 1200mV 0C Model Setup 'joy|joystick_adc|pll|sd1|pll7|clk[0]'
+Slack : 31.309
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'vga_driver:vga|v_sync'
+Slack : 0.289
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clkrtc'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk25'
+Slack : 0.308
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'joy|joystick_adc|pll|sd1|pll7|clk[0]'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk50'
+Slack : 0.580
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'vga_driver:vga|v_sync'
+Slack : -2.776
+TNS   : -1162.673
+
+Type  : Slow 1200mV 0C Model Recovery 'clkrtc'
+Slack : -1.691
+TNS   : -100.285
+
+Type  : Slow 1200mV 0C Model Recovery 'joy|joystick_adc|pll|sd1|pll7|clk[0]'
+Slack : 36.607
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'joy|joystick_adc|pll|sd1|pll7|clk[0]'
+Slack : 0.855
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'vga_driver:vga|v_sync'
+Slack : 0.891
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clkrtc'
+Slack : 1.595
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vga_driver:vga|v_sync'
+Slack : -1.403
+TNS   : -2589.938
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk25'
+Slack : -1.403
+TNS   : -116.449
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkrtc'
+Slack : -1.403
+TNS   : -106.628
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk50'
+Slack : 9.648
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'joy|joystick_adc|pll|sd1|pll7|clk[0]'
+Slack : 19.710
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'joy|joystick_adc|pll|sd1|pll7|clk[1]'
+Slack : 44.631
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk25'
+Slack : -6.479
+TNS   : -190.076
+
+Type  : Fast 1200mV 0C Model Setup 'vga_driver:vga|v_sync'
+Slack : -5.077
+TNS   : -3951.012
+
+Type  : Fast 1200mV 0C Model Setup 'clkrtc'
+Slack : -1.105
+TNS   : -39.489
+
+Type  : Fast 1200mV 0C Model Setup 'clk50'
+Slack : -0.798
+TNS   : -1.270
+
+Type  : Fast 1200mV 0C Model Setup 'joy|joystick_adc|pll|sd1|pll7|clk[0]'
+Slack : 35.447
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'vga_driver:vga|v_sync'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clkrtc'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk25'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'joy|joystick_adc|pll|sd1|pll7|clk[0]'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk50'
+Slack : 0.243
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'vga_driver:vga|v_sync'
+Slack : -0.775
+TNS   : -273.277
+
+Type  : Fast 1200mV 0C Model Recovery 'clkrtc'
+Slack : -0.450
+TNS   : -17.034
+
+Type  : Fast 1200mV 0C Model Recovery 'joy|joystick_adc|pll|sd1|pll7|clk[0]'
+Slack : 38.104
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'joy|joystick_adc|pll|sd1|pll7|clk[0]'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'vga_driver:vga|v_sync'
+Slack : 0.420
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clkrtc'
+Slack : 0.743
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga_driver:vga|v_sync'
+Slack : -1.000
+TNS   : -1846.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk25'
+Slack : -1.000
+TNS   : -83.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkrtc'
+Slack : -1.000
+TNS   : -76.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk50'
+Slack : 9.329
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'joy|joystick_adc|pll|sd1|pll7|clk[0]'
+Slack : 19.776
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'joy|joystick_adc|pll|sd1|pll7|clk[1]'
+Slack : 44.903
+TNS   : 0.000
+
+------------------------------------------------------------

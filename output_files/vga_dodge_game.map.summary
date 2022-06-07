@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sun Mar 31 16:07:29 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : vga_dodge_game
+Top-level Entity Name : vga_dodge_game
+Family : MAX 10
+Total logic elements : 13,876
+    Total combinational functions : 13,838
+    Dedicated logic registers : 2,111
+Total registers : 2111
+Total pins : 29
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 1

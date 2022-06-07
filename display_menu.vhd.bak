@@ -1,0 +1,33 @@
+LIBRARY 	IEEE;
+USE 		IEEE.STD_LOGIC_1164.ALL;
+USE 		IEEE.NUMERIC_STD.all;
+
+ENTITY display_menu IS
+	PORT 
+	(	
+		clk25				: IN  STD_LOGIC;								-- pixel clk
+		clkrtc			: IN  STD_LOGIC;								-- real time clock (1 Hz)
+		rst 		  		: IN  STD_LOGIC;
+		min_x				: IN  STD_LOGIC_VECTOR (9  DOWNTO 0);	-- minimum allowed positions
+		max_x				: IN  STD_LOGIC_VECTOR (9  DOWNTO 0);	
+		min_y				: IN  STD_LOGIC_VECTOR (9  DOWNTO 0);	-- maximum allowed positions
+		max_y				: IN  STD_LOGIC_VECTOR (9  DOWNTO 0);	
+		pixel_x			: IN	STD_LOGIC_VECTOR (9  DOWNTO 0);
+		pixel_y			: IN	STD_LOGIC_VECTOR (9  DOWNTO 0);
+		joystick_data	: IN	STD_LOGIC_VECTOR (4  DOWNTO 0);	-- mov_x & mov_y & btn_press
+		menu_x			: IN	STD_LOGIC_VECTOR (9  DOWNTO 0);
+		menu_y			: IN	STD_LOGIC_VECTOR (9  DOWNTO 0);
+		menu_size_x		: IN	STD_LOGIC_VECTOR (9  DOWNTO 0);
+		menu_size_y		: IN	STD_LOGIC_VECTOR (9  DOWNTO 0);
+		menu_color 		: OUT STD_LOGIC_VECTOR (11 DOWNTO 0);
+		menu_on			: OUT STD_LOGIC
+	);
+END display_menu;
+
+ARCHITECTURE behave OF display_menu IS
+
+	CONSTANT MENU_THICKNESS		:	UNSIGNED(9 DOWNTO 0)	:= 2;
+
+BEGIN
+
+END behave;

@@ -1,0 +1,45 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\Projetos\FPGA\de-lite-10\projeto_06_vga_dodge_game\adc.qsys --block-symbol-file --output-directory=D:\Projetos\FPGA\de-lite-10\projeto_06_vga_dodge_game\adc --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading projeto_06_vga_dodge_game/adc.qsys
+Progress: Reading input file
+Progress: Adding ADC [altera_modular_adc 17.1]
+Progress: Parameterizing module ADC
+Progress: Adding PLL [altpll 17.1]
+Progress: Parameterizing module PLL
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Adding pll_clock_bridge [altera_clock_bridge 17.1]
+Progress: Parameterizing module pll_clock_bridge
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: adc.PLL: PLL.pll_slave must be connected to an Avalon-MM master
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\Projetos\FPGA\de-lite-10\projeto_06_vga_dodge_game\adc.qsys --synthesis=VHDL --output-directory=D:\Projetos\FPGA\de-lite-10\projeto_06_vga_dodge_game\adc\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading projeto_06_vga_dodge_game/adc.qsys
+Progress: Reading input file
+Progress: Adding ADC [altera_modular_adc 17.1]
+Progress: Parameterizing module ADC
+Progress: Adding PLL [altpll 17.1]
+Progress: Parameterizing module PLL
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Adding pll_clock_bridge [altera_clock_bridge 17.1]
+Progress: Parameterizing module pll_clock_bridge
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: adc.PLL: PLL.pll_slave must be connected to an Avalon-MM master
+Info: adc: Generating adc "adc" for QUARTUS_SYNTH
+Info: ADC: "adc" instantiated altera_modular_adc "ADC"
+Info: PLL: "adc" instantiated altpll "PLL"
+Info: rst_controller: "adc" instantiated altera_reset_controller "rst_controller"
+Info: control_internal: "ADC" instantiated altera_modular_adc_control "control_internal"
+Info: adc: Done "adc" with 5 modules, 13 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

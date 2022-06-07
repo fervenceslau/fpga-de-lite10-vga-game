@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sun Mar 31 16:09:12 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : vga_dodge_game
+Top-level Entity Name : vga_dodge_game
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 14,006 / 49,760 ( 28 % )
+    Total combinational functions : 13,840 / 49,760 ( 28 % )
+    Dedicated logic registers : 2,111 / 49,760 ( 4 % )
+Total registers : 2111
+Total pins : 29 / 360 ( 8 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,677,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 1 / 2 ( 50 % )

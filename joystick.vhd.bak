@@ -1,0 +1,16 @@
+LIBRARY 	IEEE;
+USE 		IEEE.STD_LOGIC_1164.ALL;
+USE 		IEEE.NUMERIC_STD.all;
+
+ENTITY player IS
+	PORT 
+	(	clk50		  	: IN  STD_LOGIC; -- 50 MHZ
+		rst 		  	: IN  STD_LOGIC;
+		v_sync		: IN  STD_LOGIC;
+		pixel_x		: IN	STD_LOGIC_VECTOR (9 DOWNTO 0);
+		pixel_y		: IN	STD_LOGIC_VECTOR (9 DOWNTO 0);
+		debug_sw		: IN	STD_LOGIC_VECTOR (2 DOWNTO 0);
+		debug_led	: OUT STD_LOGIC_VECTOR (9 DOWNTO 0);
+		player_on  	: OUT STD_LOGIC;
+		player_bit 	: OUT STD_LOGIC);
+END player;

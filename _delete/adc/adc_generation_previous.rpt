@@ -1,0 +1,31 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\Projetos\FPGA\de-lite-10\projeto_06_vga_dodge_game\adc.qsys --block-symbol-file --output-directory=D:\Projetos\FPGA\de-lite-10\projeto_06_vga_dodge_game\adc --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading projeto_06_vga_dodge_game/adc.qsys
+Progress: Reading input file
+Progress: Adding modular_dual_adc_0 [altera_modular_dual_adc 17.1]
+Progress: Parameterizing module modular_dual_adc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\Projetos\FPGA\de-lite-10\projeto_06_vga_dodge_game\adc.qsys --synthesis=VHDL --output-directory=D:\Projetos\FPGA\de-lite-10\projeto_06_vga_dodge_game\adc\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading projeto_06_vga_dodge_game/adc.qsys
+Progress: Reading input file
+Progress: Adding modular_dual_adc_0 [altera_modular_dual_adc 17.1]
+Progress: Parameterizing module modular_dual_adc_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: adc: Generating adc "adc" for QUARTUS_SYNTH
+Info: modular_dual_adc_0: "adc" instantiated altera_modular_dual_adc "modular_dual_adc_0"
+Info: control_internal: "modular_dual_adc_0" instantiated altera_modular_adc_control "control_internal"
+Info: conduit_splitter_internal: "modular_dual_adc_0" instantiated altera_modular_adc_conduit_splitter "conduit_splitter_internal"
+Info: dual_sync_internal: "modular_dual_adc_0" instantiated altera_modular_adc_dual_sync "dual_sync_internal"
+Info: adc: Done "adc" with 5 modules, 11 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

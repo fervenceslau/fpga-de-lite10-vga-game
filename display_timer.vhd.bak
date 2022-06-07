@@ -1,0 +1,23 @@
+LIBRARY 	IEEE;
+USE 		IEEE.STD_LOGIC_1164.ALL;
+USE 		IEEE.NUMERIC_STD.all;
+
+ENTITY display_time IS
+	PORT 
+	(	
+		clkrtc		: IN  STD_LOGIC;								-- real time clock (1 Hz)
+		rst 		  	: IN  STD_LOGIC;
+		v_sync		: IN  STD_LOGIC;
+		min_x			: IN  STD_LOGIC_VECTOR (9  DOWNTO 0);	-- minimum allowed positions
+		max_x			: IN  STD_LOGIC_VECTOR (9  DOWNTO 0);	
+		min_y			: IN  STD_LOGIC_VECTOR (9  DOWNTO 0);	-- maximum allowed positions
+		max_y			: IN  STD_LOGIC_VECTOR (9  DOWNTO 0);	
+		pixel_x		: IN	STD_LOGIC_VECTOR (9  DOWNTO 0);
+		pixel_y		: IN	STD_LOGIC_VECTOR (9  DOWNTO 0);
+		timer_color : OUT STD_LOGIC_VECTOR (11 DOWNTO 0);
+		timer_on		: OUT STD_LOGIC
+	);
+END vga_dodge_game;
+
+ARCHITECTURE behave OF vga_dodge_game IS
+

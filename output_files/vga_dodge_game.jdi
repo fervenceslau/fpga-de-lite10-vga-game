@@ -1,0 +1,16 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="4efb26dda5ab9de1c75a"/>
+  </project>
+  <file_info>
+    <file device="10M50DAF484C7G" path="vga_dodge_game.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="joystick:joy|adc:joystick_adc" name="joystick_adc">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME adc HAS_SOPCINFO 1 GENERATION_ID 1552888614"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>

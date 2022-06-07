@@ -1,0 +1,82 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\Projetos\FPGA\de-lite-10\projeto_06_vga_dodge_game\main.qsys --block-symbol-file --output-directory=D:\Projetos\FPGA\de-lite-10\projeto_06_vga_dodge_game\main --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading projeto_06_vga_dodge_game/main.qsys
+Progress: Reading input file
+Progress: Adding ADC [altera_modular_dual_adc 17.1]
+Progress: Parameterizing module ADC
+Progress: Adding AVALON_BRIDGE [altera_jtag_avalon_master 17.1]
+Progress: Parameterizing module AVALON_BRIDGE
+Progress: Adding PLL [altpll 17.1]
+Progress: Parameterizing module PLL
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: main.PLL: PLL.areset_conduit must be exported, or connected to a matching conduit.
+Warning: main.ADC: Interrupt sender ADC.sample_store_irq is not connected to an interrupt receiver
+Warning: main.PLL: PLL.pll_slave must be connected to an Avalon-MM master
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\Projetos\FPGA\de-lite-10\projeto_06_vga_dodge_game\main.qsys --synthesis=VHDL --output-directory=D:\Projetos\FPGA\de-lite-10\projeto_06_vga_dodge_game\main\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading projeto_06_vga_dodge_game/main.qsys
+Progress: Reading input file
+Progress: Adding ADC [altera_modular_dual_adc 17.1]
+Progress: Parameterizing module ADC
+Progress: Adding AVALON_BRIDGE [altera_jtag_avalon_master 17.1]
+Progress: Parameterizing module AVALON_BRIDGE
+Progress: Adding PLL [altpll 17.1]
+Progress: Parameterizing module PLL
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: main.PLL: PLL.areset_conduit must be exported, or connected to a matching conduit.
+Warning: main.ADC: Interrupt sender ADC.sample_store_irq is not connected to an interrupt receiver
+Warning: main.PLL: PLL.pll_slave must be connected to an Avalon-MM master
+Info: main: Generating main "main" for QUARTUS_SYNTH
+Info: ADC: "main" instantiated altera_modular_dual_adc "ADC"
+Info: AVALON_BRIDGE: "main" instantiated altera_jtag_avalon_master "AVALON_BRIDGE"
+Info: PLL: "main" instantiated altpll "PLL"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "main" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: rst_controller: "main" instantiated altera_reset_controller "rst_controller"
+Info: control_internal: "ADC" instantiated altera_modular_adc_control "control_internal"
+Info: sequencer_internal: "ADC" instantiated altera_modular_adc_sequencer "sequencer_internal"
+Info: sample_store_internal: "ADC" instantiated altera_modular_adc_sample_store "sample_store_internal"
+Info: conduit_splitter_internal: "ADC" instantiated altera_modular_adc_conduit_splitter "conduit_splitter_internal"
+Info: dual_sync_internal: "ADC" instantiated altera_modular_adc_dual_sync "dual_sync_internal"
+Info: response_merge_internal: "ADC" instantiated altera_modular_adc_response_merge "response_merge_internal"
+Info: jtag_phy_embedded_in_jtag_master: "AVALON_BRIDGE" instantiated altera_jtag_dc_streaming "jtag_phy_embedded_in_jtag_master"
+Info: timing_adt: "AVALON_BRIDGE" instantiated timing_adapter "timing_adt"
+Info: fifo: "AVALON_BRIDGE" instantiated altera_avalon_sc_fifo "fifo"
+Info: b2p: "AVALON_BRIDGE" instantiated altera_avalon_st_bytes_to_packets "b2p"
+Info: p2b: "AVALON_BRIDGE" instantiated altera_avalon_st_packets_to_bytes "p2b"
+Info: transacto: "AVALON_BRIDGE" instantiated altera_avalon_packets_to_master "transacto"
+Info: b2p_adapter: "AVALON_BRIDGE" instantiated channel_adapter "b2p_adapter"
+Info: p2b_adapter: "AVALON_BRIDGE" instantiated channel_adapter "p2b_adapter"
+Info: AVALON_BRIDGE_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "AVALON_BRIDGE_master_translator"
+Info: ADC_sample_store_csr_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "ADC_sample_store_csr_translator"
+Info: AVALON_BRIDGE_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "AVALON_BRIDGE_master_agent"
+Info: ADC_sample_store_csr_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "ADC_sample_store_csr_agent"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: AVALON_BRIDGE_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "AVALON_BRIDGE_master_limiter"
+Info: Reusing file D:/Projetos/FPGA/de-lite-10/projeto_06_vga_dodge_game/main/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: Reusing file D:/Projetos/FPGA/de-lite-10/projeto_06_vga_dodge_game/main/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/Projetos/FPGA/de-lite-10/projeto_06_vga_dodge_game/main/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: main: Done "main" with 33 modules, 57 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
